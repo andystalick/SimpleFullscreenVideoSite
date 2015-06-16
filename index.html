@@ -34,14 +34,15 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <h1>Hello, VR World</h1>
-        <iframe width="560" height="315" 
-            src="//www.youtube.com/embed/xycnv87N_BU?modestbranding=1&controls=0&showinfo=0&rel=0"></iframe>
-
+        <div class="video-container">
+            <iframe width="560" height="315" id="big-video"
+            src="//www.youtube.com/embed/oBQVvEMc-VQ?modestbranding=1&controls=0&showinfo=0&rel=0"></iframe>
+        </div>
 
 
         <!-- let this be at the bottom -->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script> 
+        <script>$(".video-container").fitVids();</script
     </body>
 </html>
